@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Resistor Calculator JS</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<header>
+			<h1 class="text-center" id="title">4-band Resistor Calculator</h1>
+		</header>
+		<div class="text-center">
+			<h2>Value: <span id="ohms"></span></h2>
+			<input type="text" readonly name="" id="first" placeholder="firstband"><br>
+			<input type="text" readonly name=""  id="second" placeholder="second"><br>
+			<input type="text" readonly name="" id="multi" placeholder="multiplier">
+		</div>
+		<div id="resistor-body" class="text-center" >
+			<div class="band" onclick="band_clicked(this)" ></div>
+			<div class="band" onclick="band_clicked(this)"></div>
+			<div class="band" onclick="band_clicked(this)"></div>
+			<div class="band" onclick="band_clicked(this)"></div>
+		</div>
+		<div id="band-msg" class="text-center"></div>
+		<div id="color-msg" class="text-center"></div>
+		<!-- the color choices -->
+		<div id="colors" class="text-center">
+			<table>
+				<tr>
+					<td><button onclick="btn_clicked(this)">black</button></td>
+					<td><button onclick="btn_clicked(this)">brown</button></td>
+					<td><button onclick="btn_clicked(this)">red</button></td>
+					<td><button onclick="btn_clicked(this)">orange</button></td>
+				</tr>
+				<tr>
+					<td><button onclick="btn_clicked(this)">yellow</button></td>
+					<td><button onclick="btn_clicked(this)">green</button></td>
+					<td><button onclick="btn_clicked(this)">blue</button></td>
+					<td><button onclick="btn_clicked(this)">violet</button></td>
+				</tr>
+				<tr>
+					<td><button onclick="btn_clicked(this)">gray</button></td>
+					<td><button onclick="btn_clicked(this)">white</button></td>
+					<td><button onclick="btn_clicked(this)">gold</button></td>
+					<td><button onclick="btn_clicked(this)">silver</button></td>
+				</tr>
+			</table>
+			
+		</div>
+
+		<div class="text-center">
+			<button class="btn btn-primary">Calculate</button>
+		</div>
+		<script type="text/javascript" src="js/resistor.js"></script>
+	</body>
+</html>

@@ -1,0 +1,82 @@
+@font-face {
+	font-family: Lobster;
+	src: url('../fonts/Lobster-Regular.ttf');
+}
+@font-face {
+	font-family: Roboto;
+	src: url('../fonts/ROBOTOSLAB-REGULAR.TTF');
+}
+
+body {
+	font-family: Roboto;
+	margin: 0 auto	;
+}
+#colors button {
+	border: 1px solid #000;
+}
+
+#title {
+	font-family: Lobster;
+}
+#resistor-body {
+	background-color: #adad85;
+	height: 120px;
+	width: 400px;
+	border-radius: 180px;
+	border: 1px solid #ddd;
+	margin: 0 auto;
+	/*padding-left: 56px;*/
+}
+.band {
+	/*border: 1px solid black;*/
+	background-color: #ddd;
+	height: 118px;
+	width: 30px;
+	margin: 0  20px;
+	display: inline-flex;
+}
+
+#colors {
+	margin: 0 auto;
+	width: 400px;
+	margin-top: 50px;
+}
+#colors td{
+	/*border: 1px solid black;*/
+	padding: 20px;
+	margin: 10px!important;
+}
+
+#colors tr {
+	width: 50px;
+}
+
+table button{
+	width: 60px;
+	height: 30px;
+}
+
+
+.cur_clicked {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+
+
+/*
+.band {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+}
+ 
+.band:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(81, 203, 238, 1);
+}*/
